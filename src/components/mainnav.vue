@@ -8,6 +8,17 @@
             <Icon type="ios-people"></Icon>
             用户管理
         </Menu-item>
+        <Submenu key="4">
+            <template slot="title">
+                <Icon type="stats-bars"></Icon>
+                Sample
+            </template>
+            <Menu-group title="form">
+                <Menu-item key="4-1"><router-link to="/t/form">from1</router-link></Menu-item>
+                <Menu-item key="4-2"><router-link to="/t/form2">from2</router-link></Menu-item>
+                <Menu-item key="4-3"><router-link to="/t/form3">from3</router-link></Menu-item>
+            </Menu-group>
+        </Submenu>
         <Submenu key="3">
             <template slot="title">
                 <Icon type="stats-bars"></Icon>
